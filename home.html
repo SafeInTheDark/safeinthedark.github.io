@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Safe in the Dark - Home</title>
+  <link rel="stylesheet" href="home-style.css">
+</head>
+<body>
+  <header>
+    <h1>SAFE IN THE DARK</h1>
+    <p>A Punk Project for the Cursed, the Cute, and the Catastrophically Loud</p>
+    <a href="https://yourmusiclink.com" class="btn">🎧 Listen Now</a>
+  </header>
+
+  <section>
+    <h2>Incident Logs</h2>
+    <div class="log">
+      <p>> INCIDENT LOG #034 — Denton, TX — Green Goddess Revival</p>
+      <p>> STATUS: Complete — 42 subjects converted</p>
+      <a href="#">[ View Footage ]</a>
+    </div>
+    <div class="log">
+      <p>> INCIDENT LOG #035 — Dallas, TX — RBC</p>
+      <p>> STATUS: Incoming</p>
+      <a href="#">[ RSVP ]</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Files & Audio</h2>
+    <div class="file">
+      <p>🎧 SITD-001: You Were Blocked for a Reason</p>
+      <p>📁 Status: Leaked</p>
+      <a href="https://link.to.your.track">[ Listen ]</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Join the Cult</h2>
+    <form>
+      <label for="email">We'll only contact you when it's important. Or dangerous.</label><br>
+      <input type="email" id="email" name="email" placeholder="you@cryptidmail.com" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p id="footer-text">containment failed</p>
+  </footer>
+
+  <script>
+    const messages = ["containment failed", "do not follow the mask", "are you one of us?"];
+    let i = 0;
+    setInterval(() => {
+      i = (i + 1) % messages.length;
+      document.getElementById('footer-text').textContent = messages[i];
+    }, 4000);
+  </script>
+</body>
+</html>
