@@ -1,4 +1,3 @@
-
 body {
   background-color: black;
   color: #00FFAA;
@@ -6,9 +5,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column; /* This helps stack terminal + enter nicely */
   height: 100vh;
   margin: 0;
   overflow: hidden;
+  text-align: center;
 }
 
 #terminal {
@@ -19,18 +20,27 @@ body {
 
 #enter-link {
   display: none;
-  position: fixed;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 2rem;
   color: #00FFAA;
   text-decoration: none;
   font-weight: bold;
   animation: blink 1.5s infinite;
 }
 
-
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
+/* 📱 Mobile Tweaks */
+@media (max-width: 600px) {
+  #terminal {
+    font-size: 1rem;
+  }
+
+  #enter-link {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+  }
+}
+
