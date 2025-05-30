@@ -23,7 +23,7 @@ function typeLine() {
     // Add blinking ENTER link
     const enter = document.createElement('a');
     enter.id = 'enter-link';
-    enter.href = '/home';
+    enter.href = 'https://safeinthedark.com/home';
     enter.textContent = '> [ ENTER ]';
     document.body.appendChild(enter);
     enter.style.display = 'block';
