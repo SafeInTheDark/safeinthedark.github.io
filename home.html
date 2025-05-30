@@ -12,19 +12,73 @@
     <a href="https://yourmusiclink.com" class="btn">🎧 Listen Now</a>
   </header>
 
-  <section>
-    <h2>Incident Logs</h2>
-    <div class="log">
-      <p>> INCIDENT LOG #034 — Denton, TX — Green Goddess Revival</p>
-      <p>> STATUS: Complete — 42 subjects converted</p>
-      <a href="#">[ View Footage ]</a>
-    </div>
-    <div class="log">
-      <p>> INCIDENT LOG #035 — Dallas, TX — RBC</p>
-      <p>> STATUS: Incoming</p>
-      <a href="#">[ RSVP ]</a>
-    </div>
-  </section>
+<section>
+  <h2>Incident Logs</h2>
+
+  <style>
+    .bit-widget-container * {
+      font-family: 'Courier New', monospace !important;
+      color: #00FFAA !important;
+      background-color: black !important;
+    }
+
+    .bit-widget-container {
+      border: 1px dashed #00FFAA;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+
+    .bit-date {
+      border: 1px solid #00FFAA !important;
+      border-radius: 5px !important;
+    }
+
+    .bit-ticket-button, .bit-rsvp-button {
+      background-color: #00FFAA !important;
+      color: black !important;
+      border-radius: 2px !important;
+      border: none !important;
+      padding: 0.3rem 0.6rem !important;
+      font-weight: bold;
+    }
+
+    .bit-widget-container h2,
+    .bit-widget-container h3,
+    .bit-event-card {
+      border-bottom: 1px dashed #00FFAA !important;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+
+  <script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
+  <a class="bit-widget-initializer"
+    data-artist-name="id_15572957"
+    data-display-local-dates="false"
+    data-display-past-dates="true"
+    data-display-details="false"
+    data-display-lineup="false"
+    data-display-start-time="false"
+    data-display-limit="6"
+    data-auto-style="false"
+    data-text-color="#00FFAA"
+    data-background-color="black"
+    data-link-color="#00FFAA"
+    data-font="Courier New"
+    data-date-format="MMM. D, YYYY"
+    data-date-orientation="horizontal"
+    data-date-border-color="#00FFAA"
+    data-date-border-width="1px"
+    data-date-border-radius="6px"
+    data-event-ticket-text="BREACH TICKETS"
+    data-event-rsvp-text="REPORT IN"
+    data-follow-section-position="hidden"
+    data-play-my-city-position="hidden"
+    data-bit-logo-position="hidden"
+    data-social-share-icon="false"
+  ></a>
+</section>
+
 
   <section>
     <h2>Files & Audio</h2>
