@@ -27,6 +27,13 @@ function typeLine() {
     enter.textContent = '> [ ENTER ]';
     document.body.appendChild(enter);
     enter.style.display = 'block';
+    // Add keyboard support for Enter key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    window.location.href = enter.href;
+  }
+});
+
   }
 }
 
