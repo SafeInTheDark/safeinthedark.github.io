@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  color: #00FFAA;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid #00FFAA;
+  color: #00FFAA;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.log, .file {
+  margin: 1rem 0;
+}
+
+input[type="email"] {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #00FFAA;
+  background-color: black;
+  color: #00FFAA;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background-color: #00FFAA;
+  color: black;
+  border: none;
+}
+
+footer {
+  margin-top: 2rem;
+  font-style: italic;
+}
