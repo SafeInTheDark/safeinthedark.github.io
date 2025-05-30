@@ -19,12 +19,16 @@ body {
 
 #enter-link {
   display: none;
-  margin-top: 1em;
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
   color: #00FFAA;
   text-decoration: none;
   font-weight: bold;
   animation: blink 1.5s infinite;
 }
+
 
 @keyframes blink {
   0%, 100% { opacity: 1; }
